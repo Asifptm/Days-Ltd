@@ -10,6 +10,8 @@ const nextConfig: NextConfig = {
       },
     ],
   },
+  // Dev uses `next dev --webpack` (watch polling below). Production build uses Turbopack.
+  turbopack: {},
   // OneDrive/synced folders often miss file events; polling helps dev reload.
   webpack: (config, { dev }) => {
     if (dev) {

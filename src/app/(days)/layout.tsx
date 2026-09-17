@@ -1,6 +1,7 @@
 import { DaysShell } from "@/components/layout/days-shell";
-import type { BaseProps } from "@/types";
 
-export default function DaysLayout({ children }: BaseProps) {
+export default function DaysLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return <DaysShell>{children}</DaysShell>;
 }

@@ -1,6 +1,7 @@
 import { SiteShell } from "@/components/layout/site-shell";
-import type { BaseProps } from "@/types";
 
-export default function SiteLayout({ children }: BaseProps) {
+export default function SiteLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
   return <SiteShell>{children}</SiteShell>;
 }
