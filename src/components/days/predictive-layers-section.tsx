@@ -10,25 +10,25 @@ const layers = [
     id: "01",
     title: "AI Layer",
     description:
-      "LLM-based interaction layer for simple communication through natural language",
+      "Enables natural-language interaction with simulated agents, scenarios, and the environment.",
   },
   {
     id: "02",
     title: "Knowledge Layer",
     description:
-      "Contextual layer with organisation data, strategies, stakeholder dynamics,",
+      "Represents organizational data, strategies, outcomes, customers, and stakeholder dynamics.",
   },
   {
     id: "03",
     title: "Behaviour Layer",
     description:
-      "Multi-agent system based on real-world human behaviour data, event-response patterns, and social dynamics",
+      "Maps human traits, preferences, decision patterns, event responses, and social dynamics.",
   },
   {
     id: "04",
     title: "Environment Layer",
     description:
-      "Computational model of real-world trends, culture, economic outlook, and other external factors",
+      "Models real-world trends, events, culture, technology, competition, and economic conditions.",
   },
 ] as const;
 
@@ -44,8 +44,7 @@ export function PredictiveLayersSection() {
               Predictive, not retrospective.
             </h1>
             <p className="mt-6 max-w-md font-sans text-sm leading-6 text-neutral-600 sm:text-base sm:leading-7 lg:mt-8">
-              We&apos;ve reimagined customer relationships, helping businesses
-              anticipate what&apos;s next and act with confidence.
+            Anticipate what’s next, explore what could happen, and make informed decisions.
             </p>
           </div>
 
